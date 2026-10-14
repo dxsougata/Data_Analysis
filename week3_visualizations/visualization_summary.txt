@@ -1,0 +1,65 @@
+WEEK 3: DATA VISUALIZATION AND REPORTING
+=======================================================
+
+Dataset: data.csv
+Rows: 4424
+Columns: 37
+Outcome column: Target
+Missing cells: 0
+Duplicate rows: 0
+
+Outcome distribution:
+          Count  Percentage
+Target                     
+Graduate   2209       49.93
+Dropout    1421       32.12
+Enrolled    794       17.95
+
+Numeric descriptive statistics:
+                                                 count         mean          std    min      25%          50%          75%          max
+Marital status                                  4424.0     1.178571     0.605747   1.00     1.00     1.000000     1.000000     6.000000
+Application mode                                4424.0    18.669078    17.484682   1.00     1.00    17.000000    39.000000    57.000000
+Application order                               4424.0     1.727848     1.313793   0.00     1.00     1.000000     2.000000     9.000000
+Course                                          4424.0  8856.642631  2063.566416  33.00  9085.00  9238.000000  9556.000000  9991.000000
+Daytime/evening attendance                      4424.0     0.890823     0.311897   0.00     1.00     1.000000     1.000000     1.000000
+Previous qualification                          4424.0     4.577758    10.216592   1.00     1.00     1.000000     1.000000    43.000000
+Previous qualification (grade)                  4424.0   132.613314    13.188332  95.00   125.00   133.100000   140.000000   190.000000
+Nacionality                                     4424.0     1.873192     6.914514   1.00     1.00     1.000000     1.000000   109.000000
+Mother's qualification                          4424.0    19.561935    15.603186   1.00     2.00    19.000000    37.000000    44.000000
+Father's qualification                          4424.0    22.275316    15.343108   1.00     3.00    19.000000    37.000000    44.000000
+Mother's occupation                             4424.0    10.960895    26.418253   0.00     4.00     5.000000     9.000000   194.000000
+Father's occupation                             4424.0    11.032324    25.263040   0.00     4.00     7.000000     9.000000   195.000000
+Admission grade                                 4424.0   126.978119    14.482001  95.00   117.90   126.100000   134.800000   190.000000
+Displaced                                       4424.0     0.548373     0.497711   0.00     0.00     1.000000     1.000000     1.000000
+Educational special needs                       4424.0     0.011528     0.106760   0.00     0.00     0.000000     0.000000     1.000000
+Debtor                                          4424.0     0.113698     0.317480   0.00     0.00     0.000000     0.000000     1.000000
+Tuition fees up to date                         4424.0     0.880651     0.324235   0.00     1.00     1.000000     1.000000     1.000000
+Gender                                          4424.0     0.351718     0.477560   0.00     0.00     0.000000     1.000000     1.000000
+Scholarship holder                              4424.0     0.248418     0.432144   0.00     0.00     0.000000     0.000000     1.000000
+Age at enrollment                               4424.0    23.265145     7.587816  17.00    19.00    20.000000    25.000000    70.000000
+International                                   4424.0     0.024864     0.155729   0.00     0.00     0.000000     0.000000     1.000000
+Curricular units 1st sem (credited)             4424.0     0.709991     2.360507   0.00     0.00     0.000000     0.000000    20.000000
+Curricular units 1st sem (enrolled)             4424.0     6.270570     2.480178   0.00     5.00     6.000000     7.000000    26.000000
+Curricular units 1st sem (evaluations)          4424.0     8.299051     4.179106   0.00     6.00     8.000000    10.000000    45.000000
+Curricular units 1st sem (approved)             4424.0     4.706600     3.094238   0.00     3.00     5.000000     6.000000    26.000000
+Curricular units 1st sem (grade)                4424.0    10.640822     4.843663   0.00    11.00    12.285714    13.400000    18.875000
+Curricular units 1st sem (without evaluations)  4424.0     0.137658     0.690880   0.00     0.00     0.000000     0.000000    12.000000
+Curricular units 2nd sem (credited)             4424.0     0.541817     1.918546   0.00     0.00     0.000000     0.000000    19.000000
+Curricular units 2nd sem (enrolled)             4424.0     6.232143     2.195951   0.00     5.00     6.000000     7.000000    23.000000
+Curricular units 2nd sem (evaluations)          4424.0     8.063291     3.947951   0.00     6.00     8.000000    10.000000    33.000000
+Curricular units 2nd sem (approved)             4424.0     4.435805     3.014764   0.00     2.00     5.000000     6.000000    20.000000
+Curricular units 2nd sem (grade)                4424.0    10.230206     5.210808   0.00    10.75    12.200000    13.333333    18.571429
+Curricular units 2nd sem (without evaluations)  4424.0     0.150316     0.753774   0.00     0.00     0.000000     0.000000    12.000000
+Unemployment rate                               4424.0    11.566139     2.663850   7.60     9.40    11.100000    13.900000    16.200000
+Inflation rate                                  4424.0     1.228029     1.382711  -0.80     0.30     1.400000     2.600000     3.700000
+GDP                                             4424.0     0.001969     2.269935  -4.06    -1.70     0.320000     1.790000     3.510000
+
+Visualization files:
+- 01_student_outcomes_bar.png
+- 02_academic_indicators_line.png
+- 03_relationship_scatter.png
+- 04_correlation_heatmap.png
+- 05_numeric_boxplots.png
+- 06_feature_histograms.png
+- 07_semester_grade_comparison.png
+- 08_tuition_status_outcomes.png
