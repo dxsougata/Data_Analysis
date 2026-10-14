@@ -1,0 +1,28 @@
+Week 4 Statistical Analysis Results (alpha=0.05)
+Dataset: D:\Data_Analysis\data.csv
+Rows: 4424 | columns: 37
+Missing cells: 0
+
+H1: Tuition status × Target
+Test: Pearson chi-square independence | statistic: 823.553 | p: 1.47163e-179 | Holm p: 4.41488e-179
+Effect: Cramér's V=0.431458 | n=4424 | Statistically significant at α=.05
+Notes: 0/6 expected cells <5; minimum expected=94.76. Expected-count guideline met.
+95% CI: None
+
+H2: Scholarship status × Target
+Test: Pearson chi-square independence | statistic: 409.943 | p: 9.59393e-90 | Holm p: 1.91879e-89
+Effect: Cramér's V=0.304407 | n=4424 | Statistically significant at α=.05
+Notes: 0/6 expected cells <5; minimum expected=197.24. Expected-count guideline met.
+95% CI: None
+
+H3: Age at enrollment × Target
+Test: Kruskal-Wallis | statistic: 375.107 | p: 3.52019e-82 | Holm p: 3.52019e-82
+Effect: epsilon-squared=0.0843942 | n=4424 | Statistically significant at α=.05
+Notes: Kruskal–Wallis selected because normality/variance checks raised concern; independent groups assumed. Epsilon-squared is an approximate effect size.
+95% CI: None
+
+H4: Admission grade ↔ previous qualification grade
+Test: Spearman rank correlation | statistic: 0.584624 | p: 0 | Holm p: 0
+Effect: Spearman rho=0.584624 | n=4424 | Statistically significant at α=.05
+Notes: Bootstrap percentile confidence interval; association is not causation.
+95% CI: [0.5605048009831561, 0.6082620967625182]
